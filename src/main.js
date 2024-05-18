@@ -1,8 +1,15 @@
 import React from "react";
-import ReactDOM, { createRoot } from "react-dom/client";
+import ReactDOM from "react-dom/client";
+import App from "./App";
 
 const AppLayout = () => {
-  return <h1 className="text-4xl font-bold font-signature">Hai I am React</h1>;
+  return (
+    <div>
+      <App />
+    </div>
+  );
 };
 
 ReactDOM.createRoot(document.getElementById("root")).render(<AppLayout />);
+
+// , { createRoot }
