@@ -10,3 +10,5 @@ const App = () => {
 };
 
 export default App;
+
+// border-solid border-white border-2
