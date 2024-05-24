@@ -1,9 +1,9 @@
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 import MyPhoto from "../assets/myPhoto.jpg";
 
 const Home = () => {
   return (
-    <div className="bg-gradient-to-b from-black via-black to-gray-800 w-full h-screen">
+    <div className="bg-gradient-to-b from-black via-black to-gray-800 w-full h-screen flex justify-center items-center">
       <div className="max-w-screen-lg flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-white text-4xl font-bold">
@@ -17,7 +17,7 @@ const Home = () => {
           <button className="group bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer text-white w-fit flex items-center rounded-md px-6 py-3 my-2">
             Portfolio
             <span className="group-hover:rotate-90 duration-300">
-              <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+              <MdOutlineKeyboardDoubleArrowRight size={25} className="ml-1" />
             </span>
           </button>
         </div>
