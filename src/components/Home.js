@@ -3,7 +3,10 @@ import MyPhoto from "../assets/myPhoto.jpg";
 
 const Home = () => {
   return (
-    <div className="bg-gradient-to-b from-black via-black to-gray-800 w-full h-screen flex justify-center items-center">
+    <div
+      name="home"
+      className="bg-gradient-to-b from-black via-black to-gray-800 w-full h-screen flex justify-center items-center"
+    >
       <div className="max-w-screen-lg flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-white text-4xl font-bold">
