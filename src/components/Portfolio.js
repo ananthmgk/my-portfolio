@@ -1,9 +1,10 @@
 import analogClock from "../assets/portfolio/analog-clock.jpg";
 import brickGame from "../assets/portfolio/brick-game.jpg";
 import clickAndDragTheBallInCanvas from "../assets/portfolio/click-and-drag-the-ball-in-canvas.jpg";
-import debouncingAndThrottling from "../assets/portfolio/debouncing-and-throttling.jpg";
 import countdownTimer from "../assets/portfolio/countdown-timer.jpg";
 import stopWatch from "../assets/portfolio/stop-watch.jpg";
+import eCommerceProject from "../assets/portfolio/e-commerce-project.jpg";
+import debouncingAndThrottling from "../assets/portfolio/debouncing-and-throttling.jpg";
 import digitalClock from "../assets/portfolio/digital-clock.jpg";
 import codewellChallengesCurrentStatus from "../assets/portfolio/codewell-challenges-current status.jpg";
 import photoViewer from "../assets/portfolio/photo-viewer.jpg";
@@ -12,19 +13,19 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: analogClock,
+      src: eCommerceProject,
     },
     {
       id: 2,
-      src: brickGame,
+      src: analogClock,
     },
     {
       id: 3,
-      src: clickAndDragTheBallInCanvas,
+      src: brickGame,
     },
     {
       id: 4,
-      src: debouncingAndThrottling,
+      src: clickAndDragTheBallInCanvas,
     },
     {
       id: 5,
