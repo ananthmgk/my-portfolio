@@ -1,35 +1,38 @@
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import analogClock from "../assets/portfolio/analog-clock.jpg";
+import brickGame from "../assets/portfolio/brick-game.jpg";
+import clickAndDragTheBallInCanvas from "../assets/portfolio/click-and-drag-the-ball-in-canvas.jpg";
+import debouncingAndThrottling from "../assets/portfolio/debouncing-and-throttling.jpg";
+import countdownTimer from "../assets/portfolio/countdown-timer.jpg";
+import stopWatch from "../assets/portfolio/stop-watch.jpg";
+import digitalClock from "../assets/portfolio/digital-clock.jpg";
+import codewellChallengesCurrentStatus from "../assets/portfolio/codewell-challenges-current status.jpg";
+import photoViewer from "../assets/portfolio/photo-viewer.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: analogClock,
     },
     {
       id: 2,
-      src: installNode,
+      src: brickGame,
     },
     {
       id: 3,
-      src: navbar,
+      src: clickAndDragTheBallInCanvas,
     },
     {
       id: 4,
-      src: reactParallax,
+      src: debouncingAndThrottling,
     },
     {
       id: 5,
-      src: reactSmooth,
+      src: countdownTimer,
     },
     {
       id: 6,
-      src: reactWeather,
+      src: stopWatch,
     },
   ];
   return (

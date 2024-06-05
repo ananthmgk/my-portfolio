@@ -1,5 +1,6 @@
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 import MyPhoto from "../assets/myPhoto.jpg";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -17,12 +18,17 @@ const Home = () => {
             in a challenging environment to prove my skills and utilize my
             knowledge & intelligence for growth of the organization
           </p>
-          <button className="group bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer text-white w-fit flex items-center rounded-md px-6 py-3 my-2">
+          <Link
+            to="portfolio"
+            smooth
+            duration={500}
+            className="group bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer text-white w-fit flex items-center rounded-md px-6 py-3 my-2"
+          >
             Portfolio
             <span className="group-hover:rotate-90 duration-300">
               <MdOutlineKeyboardDoubleArrowRight size={25} className="ml-1" />
             </span>
-          </button>
+          </Link>
         </div>
         <div>
           <img
