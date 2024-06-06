@@ -11,21 +11,23 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+          Mechanical Engineer turned Web Developer with experience in Quality
+          Control and Body Shop Management. Passionate about learning new skills
+          and creating dynamic web applications. Certified in "Responsive Web
+          Design".
         </p>
         <br />
         <p className="text-xl">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+          I am a highly motivated professional with over 10 years of experience
+          in the automotive industry, In recent years, I have expanded my skill
+          set to include web development, and I have spent significant time
+          learning and practicing HTML, CSS, and JavaScript. I am passionate
+          about creating engaging and user-friendly websites, and I have
+          completed several successful projects in this field. I am now seeking
+          new opportunities to apply my diverse skill set and experience, and to
+          continue growing as a professional in the web development industry. If
+          you are looking for a dedicated and adaptable team player, I would be
+          delighted to connect with you.
         </p>
       </div>
     </div>

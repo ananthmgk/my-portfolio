@@ -1,6 +1,7 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
+// import Resume from "../assets/portfolio/frontend-developer.pdf";
 
 const SocialLinks = () => {
   const links = [
@@ -43,7 +44,7 @@ const SocialLinks = () => {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/Ananth-SoftwareDeveloper.pdf",
+      href: "/frontend-developer.pdf",
       style: "rounded-br-md",
       download: true,
     },
